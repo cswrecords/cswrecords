@@ -1,0 +1,43 @@
+
+.showcase video {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+.center {
+    animation: frame 1s linear infinite;
+    animation-fill-mode: both;
+    animation-iteration-count: 1;
+}
+
+@keyframes frame{
+          0%{
+           transform: scale(.7);
+           opacity: 0;
+    }
+          35%{ 
+           transform: scale(.8);
+           opacity: .4;
+    }
+       55%{    
+           transform: scale(.9);
+           opacity: .8;
+    }
+       100%{    
+           transform: scale(1);
+           opacity: 1;
+       }
+    }
+    
+       #preloader{
+        background : rgb(255, 255, 255) url(images/loader.gif) no-repeat center center; 
+        background-size: 20%;
+        height: 100vh;
+        width: 100%;
+        position: fixed;
+        z-index: 100;
+    }

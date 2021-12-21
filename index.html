@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html>
+<head>    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>CSW RECORDS®</title>
+    <link rel="stylesheet" href="styles.css"/>
+    <style>
+        body, html {
+            margin: 0;
+        }
+        .home-content {
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            z-index: 99;
+            justify-content: center;
+        }
+
+        .home-content img {
+            width: 38vw;
+            height: auto;
+            z-index: 99;
+            animation: frame 1s linear infinite;
+            animation-fill-mode: both;
+            animation-iteration-count: 1;
+            position: relative;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="home-content">
+        <img src="images/CSW RECORDS Logo.png" alt="Logo" class="logo">
+    </div>
+    
+
+    <section class="showcase">
+        <video autoplay loop muted>
+            <source src="images/background.mp4" type="video/mp4">
+        </video>
+        <div class="overlay"></div>
+    </section>
+
+    <script>
+        var loader = document.getElementById("preloader");
+      window.addEventListener("load", function(){
+          loader.style.display = "none"
+      })
+    </script>
+
+</body>
+
+</html>
