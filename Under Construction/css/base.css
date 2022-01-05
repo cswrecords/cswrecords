@@ -1,14 +1,3 @@
-/* =================================================================== */
-/*
-/*  Advent v1.0 Base Stylesheet
-/*  url: styleshout.com
-/*  08-28-2015
-/*
-/* =================================================================== */
-
-/* 
-/* Reset - normalize.css v3.0.1 | MIT License | git.io/normalize 
-/* =================================================================== */
 html {
 	font-family: sans-serif;
 	-ms-text-size-adjust: 100%;
@@ -228,13 +217,7 @@ th {
 	padding: 0;
 }
 
-/*
-/* Basic Setup Styles - Top Elements 
-/* =================================================================== */
 
-/* NOTE
-html is set to 62.5% so that if you use REMS, all the measurements 
-are based on 10px sizing. So basically 1.5rem = 15px  */
 html {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
@@ -261,9 +244,7 @@ body {
 	text-rendering: optimizeLegibility;
 }
 
-/*
-/* Typography 
-====================================================================== */
+
 div,
 dl,
 dt,
@@ -360,8 +341,7 @@ ol ul {
 	margin: 3px 0 3px 17px;
 }
 
-/* links
----------------------------------------------------------------------- */
+
 a {
 	text-decoration: none;
 	line-height: inherit;

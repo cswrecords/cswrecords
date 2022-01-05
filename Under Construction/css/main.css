@@ -523,6 +523,8 @@ main p {
 	color: #fff;
 	margin-bottom: 18px;
 	padding: 0;
+	text-shadow: 7px 7px 7px #000000;
+	
 }
 
 main hr {
